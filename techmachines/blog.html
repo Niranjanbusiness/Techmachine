@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Blog - TechMachines | Tech Reviews & Gadget Recommendations">
+    <meta name="description" content="Browse all our tech reviews, gadget recommendations, and guides for students. Find the best deals on earbuds, headphones, smartwatches, and more.">
+    <meta name="keywords" content="tech reviews, gadget reviews, tech blog, product recommendations">
+    <title>Blog - TechMachines | Tech Reviews & Gadget Recommendations</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <div class="logo">
+                    <span class="logo-icon">⚙️</span>
+                    <span class="logo-text">TechMachines</span>
+                </div>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>All Articles</h1>
+            <p>Browse our complete collection of tech reviews and gadget guides</p>
+        </div>
+    </section>
+
+    <!-- Filter/Category Navigation -->
+    <section class="blog-filters">
+        <div class="container">
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All Articles</button>
+                <button class="filter-btn" data-filter="earbuds">Earbuds</button>
+                <button class="filter-btn" data-filter="headphones">Headphones</button>
+                <button class="filter-btn" data-filter="smartwatch">Smartwatches</button>
+                <button class="filter-btn" data-filter="study">Study Accessories</button>
+                <button class="filter-btn" data-filter="laptop">Laptop Accessories</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Articles Grid -->
+    <section class="blog-articles">
+        <div class="container">
+            <div class="articles-grid-blog">
+                <!-- Article 1 -->
+                <article class="article-card" data-category="earbuds">
+                    <div class="article-image">
+                        <div class="image-placeholder">
+                            <span>🎧</span>
+                        </div>
+                    </div>
+                    <div class="article-content">
+                        <span class="article-category">Earbuds</span>
+                        <h3 class="article-title">Best Earbuds Under ₹2000</h3>
+                        <p class="article-excerpt">Discover the top 5 affordable earbuds with excellent sound quality, battery life, and comfort. Perfect for students and professionals on a budget.</p>
+                        <div class="article-meta">
+                            <span class="read-time">8 min read</span>
+                        </div>
+                        <a href="earbuds.html" class="read-more">Read Article →</a>
+                    </div>
+                </article>
+
+                <!-- Article 2 -->
+                <article class="article-card" data-category="smartwatch">
+                    <div class="article-image">
+                        <div class="image-placeholder">
+                            <span>⌚</span>
+                        </div>
+                    </div>
+                    <div class="article-content">
+                        <span class="article-category">Smartwatches</span>
+                        <h3 class="article-title">Best Smartwatch Under ₹1500</h3>
+                        <p class="article-excerpt">Compare top budget smartwatches with fitness tracking, long battery life, and great features. Find your perfect match today.</p>
+                        <div class="article-meta">
+                            <span class="read-time">7 min read</span>
+                        </div>
+                        <a href="smartwatch.html" class="read-more">Read Article →</a>
+                    </div>
+                </article>
+
+                <!-- Article 3 -->
+                <article class="article-card" data-category="study">
+                    <div class="article-image">
+                        <div class="image-placeholder">
+                            <span>📚</span>
+                        </div>
+                    </div>
+                    <div class="article-content">
+                        <span class="article-category">Study Accessories</span>
+                        <h3 class="article-title">Must-Have Study Accessories for Students</h3>
+                        <p class="article-excerpt">Transform your study setup with these affordable and practical accessories. From desk organizers to lighting solutions, we've covered it all.</p>
+                        <div class="article-meta">
+                            <span class="read-time">9 min read</span>
+                        </div>
+                        <a href="study-gadgets.html" class="read-more">Read Article →</a>
+                    </div>
+                </article>
+
+                <!-- Article 4 -->
+                <article class="article-card" data-category="headphones">
+                    <div class="article-image">
+                        <div class="image-placeholder">
+                            <span>🎵</span>
+                        </div>
+                    </div>
+                    <div class="article-content">
+                        <span class="article-category">Headphones</span>
+                        <h3 class="article-title">Best Headphones for Work & Study</h3>
+                        <p class="article-excerpt">Find the perfect headphones for long work and study sessions. Noise-cancelling, comfort, and battery life compared.</p>
+                        <div class="article-meta">
+                            <span class="read-time">8 min read</span>
+                        </div>
+                        <a href="headphones.html" class="read-more">Read Article →</a>
+                    </div>
+                </article>
+
+                <!-- Article 5 -->
+                <article class="article-card" data-category="laptop">
+                    <div class="article-image">
+                        <div class="image-placeholder">
+                            <span>💾</span>
+                        </div>
+                    </div>
+                    <div class="article-content">
+                        <span class="article-category">Laptop Accessories</span>
+                        <h3 class="article-title">Best Laptop Accessories Under ₹500</h3>
+                        <p class="article-excerpt">Upgrade your laptop setup with these essential and affordable accessories. Cables, stands, cooling pads, and protective cases.</p>
+                        <div class="article-meta">
+                            <span class="read-time">7 min read</span>
+                        </div>
+                        <a href="laptop-accessories.html" class="read-more">Read Article →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>TechMachines</h4>
+                    <p>Your trusted source for budget tech gadget reviews and recommendations for students.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="earbuds.html">Earbuds</a></li>
+                        <li><a href="headphones.html">Headphones</a></li>
+                        <li><a href="smartwatch.html">Smartwatches</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechMachines. All rights reserved. | <a href="#">Disclaimer</a> | <a href="#">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
