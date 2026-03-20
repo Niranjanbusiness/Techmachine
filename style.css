@@ -1211,7 +1211,7 @@ a:hover {
 
 .logo-img {
     height: 30px;   /* smaller logo */
-    width: auto;
+    width: auto !important;
 }
 
 .logo-text {
