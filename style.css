@@ -1207,3 +1207,8 @@ a:hover {
    height: 45px;
    width: auto;
 }   
+.logo-text {
+   font-size: 18px;
+   font-weight: bold;
+   color: black;
+}   
