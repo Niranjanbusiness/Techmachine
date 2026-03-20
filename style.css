@@ -1203,12 +1203,19 @@ a:hover {
         background-color: var(--white);
     }
 }
+.logo-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
 .logo-img {
-   height: 45px;
-   width: auto;
-}   
+    height: 45px;   /* smaller logo */
+    width: auto;
+}
+
 .logo-text {
-   font-size: 18px;
-   font-weight: bold;
-   color: black;
-}   
+    font-size: 20px;
+    font-weight: 600;
+    color: #2a7f7f; /* matches your theme */
+}
