@@ -1203,3 +1203,6 @@ a:hover {
         background-color: var(--white);
     }
 }
+.logo-img {
+   height: 45px;
+}   
