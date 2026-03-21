@@ -1225,3 +1225,8 @@ a:hover {
     line-height: 1.6;
     font-size: 14px;
 }
+.product-image-large{
+    width:100%;
+    max-width:250px;
+    border-radius:10px;
+}
