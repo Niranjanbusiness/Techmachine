@@ -1219,3 +1219,9 @@ a:hover {
     font-weight: 600;
     color: #2a7f7f; /* matches your theme */
 }
+.product-description {
+    margin: 10px 0 15px;
+    color: #444;
+    line-height: 1.6;
+    font-size: 14px;
+}
