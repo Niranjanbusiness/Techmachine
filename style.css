@@ -1226,7 +1226,7 @@ a:hover {
     font-size: 14px;
 }
 .product-image-large{
-    width:100%;
+    width:auto;
     max-width:300px;
     height:auto;
     object-fit:cover;
