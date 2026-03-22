@@ -713,7 +713,7 @@ a:hover {
 
 .product-image {
     height: 300px;
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    background: none;
     border-radius: 10px;
     overflow: hidden;
     display: flex;
