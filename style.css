@@ -1226,7 +1226,7 @@ a:hover {
     font-size: 14px;
 }
 .product-image-large{
-    width:100%;
-    max-width:250px;
-    border-radius:10px;
+width:250px;
+height:auto;
+display:block;
 }
