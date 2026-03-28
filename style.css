@@ -1229,7 +1229,6 @@ a:hover {
     width:auto;
     max-width:300px;
     height:auto;
-    object-fit:cover;
     border-radius:10px;
 }
 .product-image{
