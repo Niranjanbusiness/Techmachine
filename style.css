@@ -1225,16 +1225,18 @@ a:hover {
    line-height: 1.6; 
    font-size: 14px; 
 }
-.product-image-large { 
-   width:auto; 
-   max-width:300px; 
-   height:auto; 
-   object-fit:cover; 
-   border-radius:10px; 
+.product-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: auto; /* remove fixed height */
 }
-.product-image { 
-   display:flex; 
-   justify-content:center; 
-   align-items:center; 
-   padding:20px; 
-} 
+
+.product-image-large { 
+    width: 100%;
+    max-width: 300px; 
+    height: auto; 
+    object-fit: contain; /* IMPORTANT: shows full image */
+    border-radius: 10px; 
+}
